@@ -1,5 +1,5 @@
 {
-    "name": "kphoen/doctrine-state-machine",
+    "name": "rombit/doctrine-state-machine",
     "type": "library",
     "description": "Doctrine2 state machine behavior",
     "keywords": [
@@ -13,6 +13,10 @@
         {
             "name": "Kévin Gomez",
             "email": "contact@kevingomez.fr"
+        },
+        {
+            "name": "Victor Jacobs",
+            "email": "victor@rombit.be"
         }
     ],
     "require": {
