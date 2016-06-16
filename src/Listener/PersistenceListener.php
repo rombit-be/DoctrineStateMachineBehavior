@@ -13,7 +13,7 @@ use Doctrine\ORM\Events;
  */
 class PersistenceListener extends AbstractListener
 {
-    protected $columnMapping = array();
+    protected $columnMapping = [];
 
     public function getSubscribedEvents()
     {

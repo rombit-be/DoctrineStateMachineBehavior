@@ -16,7 +16,7 @@ use Finite\Transition\TransitionInterface;
  */
 trait StateMachineExtension
 {
-    protected $statePrecedence = array();
+    protected $statePrecedence = [];
 
     /**
      * @{inheritDoc}
@@ -29,7 +29,7 @@ trait StateMachineExtension
         $transitionObject = $this->getTransition($transitionName);
 
         if (!isset($this->statePrecedence[$transitionObject->getState()])) {
-            $this->statePrecedence[$transitionObject->getState()] = array();
+            $this->statePrecedence[$transitionObject->getState()] = [];
         }
 
         $this->statePrecedence[$transitionObject->getState()] = array_merge(
@@ -50,7 +50,7 @@ trait StateMachineExtension
         }
 
         if (!isset($this->statePrecedence[$state])) {
-            $this->statePrecedence[$state] = array();
+            $this->statePrecedence[$state] = [];
         }
     }
 
