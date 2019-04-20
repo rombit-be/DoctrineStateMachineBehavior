@@ -22,7 +22,7 @@
     "require": {
         "php": "~5.4|~7.0",
         "doctrine/common": "~2.2",
-        "yohang/finite": "dev-master#128e93d9528349ff3e743428e5fe83d7a5db6360 as 1.3"
+        "yohang/finite": "1.1.2"
     },
      "require-dev": {
         "doctrine/orm": "~2.2",
