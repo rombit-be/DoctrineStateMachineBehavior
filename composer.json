@@ -1,5 +1,5 @@
 {
-    "name": "rombit/doctrine-state-machine",
+    "name": "oenie/doctrine-state-machine",
     "type": "library",
     "description": "Doctrine2 state machine behavior",
     "keywords": [
