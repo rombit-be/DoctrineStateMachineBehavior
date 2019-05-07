@@ -1,5 +1,5 @@
 {
-    "name": "oenie/doctrine-state-machine",
+    "name": "rombit/doctrine-state-machine",
     "type": "library",
     "description": "Doctrine2 state machine behavior",
     "keywords": [
@@ -17,6 +17,10 @@
         {
             "name": "Victor Jacobs",
             "email": "victor@rombit.be"
+        },
+        {
+            "name": "Jeroen Van Beirendonck",
+            "email": "jeroen.vanbeirendonck@rombit.be"
         }
     ],
     "require": {
